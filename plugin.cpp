@@ -166,7 +166,7 @@ static const clap_plugin_descriptor_t pluginDescriptor = {
     .url = "https://github.com/charCulbert",
     .manual_url = "https://github.com/charCulbert",
     .support_url = "https://github.com/charCulbert",
-    .version = "0.1.0",
+    .version = PLUGIN_VERSION, // project()'s VERSION, from CMakeLists.txt
     .description = "A scrolling spectrogram drawn with WebGPU.",
     .features = pluginFeatures,
 };
